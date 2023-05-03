@@ -1,11 +1,2 @@
 # Recurrent-Rhapsody
-A Prompt-Driven Song Generation Pipeline
-This is a final project for CSCI 6364.
-To do list - 
-- [X] Load Data Files and join the MIDI files with Million song metadata (April 20 - Done)
-- [X] Train LSTM model for lyrics generation from text prompt
-- [X] Create Lyrics match u component
-- [X] Train the Recurrent network for MIDI generation
-- [ ] Combine the components
-- [ ] Some semblance of deployment
-- [ ] the poster
+The project titled “Recurrent Rhapsody: A Prompt-Driven Song Generation Pipeline” is an LSTM-based three-stage architecture that is designed to take in a text prompt and generate a music-lyrics combination that can be combined to create the next chart-topper __(well, not really)__. The project is aimed to produce an enhanced intelligence system by combining several machine learning algorithms such as LSTM, GRU, and t-distributed stochastic neighbor embedding. The novelty of the project lies in the sequential dependency of the pipeline components. The first part, an LSTM model generates lyrics of a song, given a prompt. This song is then fed into the second stage, t-distributed stochastic neighbor embedding and cosine similarity-based algorithm, where a similarity mapping is done to obtain the song with the most similar lyrics to the one generated. This resultant track is then fed into a neural network model as the priming sequence to generate a new backing track. The lyrics along with this track are then output as the final results of the pipeline ready to be combined. 
