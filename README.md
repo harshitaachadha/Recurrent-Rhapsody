@@ -7,7 +7,8 @@ The first part, an LSTM model generates lyrics of a song, given a prompt. This s
 To see the model in action, the Integration_Monster ipython notebook can be run to obtain real-time outputs! (Please bear in mind that to run this notebook, the public folder with stored models has to be present in the mounted g-drive - link to this has been provided in the notebook)
 
 ## Sample Output
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/harshitaachadha/Recurrent-Rhapsody/blob/main/sample_op.png)
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/41395010&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
